@@ -8,16 +8,16 @@ const projects = [
     titleKey: 'portfolio.project1_title',
     descKey: 'portfolio.project1_desc',
     url: 'https://mamanalgerienne.com/',
-    image: 'https://api.microlink.io/?url=https://mamanalgerienne.com/&screenshot=true&meta=false&embed=screenshot.url',
+    image: '/project-mama.jpg',
     tags: ['React', 'Node.js', 'MongoDB'],
-    color: 'from-orange-500 to-red-500'
+    color: 'from-pink-500 to-rose-400'
   },
   {
     id: 2,
     titleKey: 'portfolio.project2_title',
     descKey: 'portfolio.project2_desc',
     url: 'https://parapharmacie-frontend.vercel.app/',
-    image: 'https://api.microlink.io/?url=https://parapharmacie-frontend.vercel.app/&screenshot=true&meta=false&embed=screenshot.url',
+    image: '/project-pharma.jpg',
     tags: ['Next.js', 'Tailwind', 'Stripe'],
     color: 'from-emerald-500 to-teal-500'
   },
@@ -26,9 +26,9 @@ const projects = [
     titleKey: 'portfolio.project3_title',
     descKey: 'portfolio.project3_desc',
     url: 'https://stupendous-pothos-cab613.netlify.app/',
-    image: 'https://api.microlink.io/?url=https://stupendous-pothos-cab613.netlify.app/&screenshot=true&meta=false&embed=screenshot.url',
+    image: '/project-csp.jpg',
     tags: ['React', 'GSAP', 'Three.js'],
-    color: 'from-violet-500 to-purple-500'
+    color: 'from-amber-500 to-yellow-500'
   }
 ]
 
