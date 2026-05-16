@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "contact": "Contact",
+    "order": "Commander"
+  },
+  "hero": {
+    "subtitle": "Agence de Solutions Digitales",
+    "title1": "Nous Construisons",
+    "title2": "L'Excellence Digitale",
+    "description": "Transformer les idées en expériences digitales époustouflantes. Nous créons des sites web et des applications qui élèvent votre marque.",
+    "cta": "Démarrer Votre Projet",
+    "stats_projects": "Projets Livrés",
+    "stats_clients": "Clients Satisfaits",
+    "stats_years": "Années d'Expérience"
+  },
+  "portfolio": {
+    "title": "Nos Réalisations",
+    "subtitle": "Découvrez nos plus belles créations digitales",
+    "project1_title": "Mama N'Algérienne",
+    "project1_desc": "Une belle plateforme culinaire célébrant la cuisine algérienne avec un design moderne et une expérience utilisateur fluide.",
+    "project2_title": "ParaPharmacie",
+    "project2_desc": "Une plateforme e-commerce complète pour les produits pharmaceutiques avec une navigation intuitive.",
+    "project3_title": "Portfolio Créatif",
+    "project3_desc": "Une vitrine créative époustouflante avec des animations dynamiques et une narration immersive.",
+    "visit": "Visiter le Site"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des solutions digitales complètes adaptées à vos besoins",
+    "web_title": "Développement Web",
+    "web_desc": "Sites web personnalisés construits avec des technologies de pointe pour des performances optimales.",
+    "app_title": "Développement d'Applications",
+    "app_desc": "Applications mobiles natives et cross-platform offrant des expériences utilisateur exceptionnelles.",
+    "design_title": "Design UI/UX",
+    "design_desc": "Des interfaces belles et intuitives conçues en pensant à vos utilisateurs.",
+    "seo_title": "SEO & Marketing",
+    "seo_desc": "Des stratégies basées sur les données pour booster votre visibilité en ligne."
+  },
+  "order": {
+    "title": "Démarrer Votre Projet",
+    "type_question": "De quoi avez-vous besoin?",
+    "website": "Site Web",
+    "application": "Application Mobile",
+    "form_title": "Détails du Projet",
+    "name": "Nom Complet",
+    "email": "Adresse Email",
+    "phone": "Numéro de Téléphone",
+    "company": "Nom de l'Entreprise",
+    "budget": "Budget",
+    "budget_small": "500€ - 2 000€",
+    "budget_medium": "2 000€ - 5 000€",
+    "budget_large": "5 000€ - 15 000€",
+    "budget_enterprise": "15 000€+",
+    "description": "Description du Projet",
+    "timeline": "Délai Souhaité",
+    "timeline_urgent": "1-2 semaines",
+    "timeline_normal": "1-2 mois",
+    "timeline_relaxed": "3-6 mois",
+    "submit": "Soumettre la Commande",
+    "success": "Commande soumise avec succès! Nous vous contacterons bientôt.",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "footer": {
+    "tagline": "Construire l'excellence digitale, un projet à la fois.",
+    "rights": "Tous droits réservés."
+  }
+}

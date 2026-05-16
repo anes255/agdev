@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "contact": "Contact",
+    "order": "Order Now"
+  },
+  "hero": {
+    "subtitle": "Digital Solutions Agency",
+    "title1": "We Build",
+    "title2": "Digital Excellence",
+    "description": "Transforming ideas into stunning digital experiences. We craft websites and applications that elevate your brand and drive results.",
+    "cta": "Start Your Project",
+    "stats_projects": "Projects Delivered",
+    "stats_clients": "Happy Clients",
+    "stats_years": "Years Experience"
+  },
+  "portfolio": {
+    "title": "Our Work",
+    "subtitle": "Showcasing our finest digital creations",
+    "project1_title": "Mama N'Algérienne",
+    "project1_desc": "A beautiful culinary platform celebrating Algerian cuisine with modern design and seamless user experience.",
+    "project2_title": "ParaPharmacie",
+    "project2_desc": "A comprehensive e-commerce platform for pharmaceutical products with intuitive navigation and secure checkout.",
+    "project3_title": "Creative Portfolio",
+    "project3_desc": "A stunning creative showcase with dynamic animations and immersive storytelling.",
+    "visit": "Visit Site"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "End-to-end digital solutions tailored to your needs",
+    "web_title": "Web Development",
+    "web_desc": "Custom websites built with cutting-edge technologies for optimal performance and stunning visuals.",
+    "app_title": "App Development",
+    "app_desc": "Native and cross-platform mobile applications that deliver exceptional user experiences.",
+    "design_title": "UI/UX Design",
+    "design_desc": "Beautiful, intuitive interfaces designed with your users in mind.",
+    "seo_title": "SEO & Marketing",
+    "seo_desc": "Data-driven strategies to boost your online visibility and drive growth."
+  },
+  "order": {
+    "title": "Start Your Project",
+    "type_question": "What do you need?",
+    "website": "Website",
+    "application": "Mobile Application",
+    "form_title": "Project Details",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "budget": "Budget Range",
+    "budget_small": "$500 - $2,000",
+    "budget_medium": "$2,000 - $5,000",
+    "budget_large": "$5,000 - $15,000",
+    "budget_enterprise": "$15,000+",
+    "description": "Project Description",
+    "timeline": "Expected Timeline",
+    "timeline_urgent": "1-2 weeks",
+    "timeline_normal": "1-2 months",
+    "timeline_relaxed": "3-6 months",
+    "submit": "Submit Order",
+    "success": "Order submitted successfully! We'll get back to you soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "tagline": "Building digital excellence, one project at a time.",
+    "rights": "All rights reserved."
+  }
+}
