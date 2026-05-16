@@ -19,12 +19,12 @@
   "portfolio": {
     "title": "Our Work",
     "subtitle": "Showcasing our finest digital creations",
-    "project1_title": "Mama N'Algérienne",
-    "project1_desc": "A beautiful culinary platform celebrating Algerian cuisine with modern design and seamless user experience.",
-    "project2_title": "ParaPharmacie",
-    "project2_desc": "A comprehensive e-commerce platform for pharmaceutical products with intuitive navigation and secure checkout.",
-    "project3_title": "Creative Portfolio",
-    "project3_desc": "A stunning creative showcase with dynamic animations and immersive storytelling.",
+    "project1_title": "Mamanalgerienne",
+    "project1_desc": "A complete platform dedicated to Algerian mothers — covering motherhood, parenting tips, products, and community support.",
+    "project2_title": "Parapharmacie Shifa",
+    "project2_desc": "A premium e-commerce platform for health, beauty, and wellness products with fast delivery across Algeria.",
+    "project3_title": "CSP Oued Seguin Prediction",
+    "project3_desc": "A football prediction platform where users forecast match results, compete in tournaments, and climb the leaderboard.",
     "visit": "Visit Site"
   },
   "services": {

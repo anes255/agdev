@@ -19,12 +19,12 @@
   "portfolio": {
     "title": "Nos Réalisations",
     "subtitle": "Découvrez nos plus belles créations digitales",
-    "project1_title": "Mama N'Algérienne",
-    "project1_desc": "Une belle plateforme culinaire célébrant la cuisine algérienne avec un design moderne et une expérience utilisateur fluide.",
-    "project2_title": "ParaPharmacie",
-    "project2_desc": "Une plateforme e-commerce complète pour les produits pharmaceutiques avec une navigation intuitive.",
-    "project3_title": "Portfolio Créatif",
-    "project3_desc": "Une vitrine créative époustouflante avec des animations dynamiques et une narration immersive.",
+    "project1_title": "Mamanalgerienne",
+    "project1_desc": "Une plateforme complète dédiée aux mamans algériennes — maternité, conseils parentaux, produits et soutien communautaire.",
+    "project2_title": "Parapharmacie Shifa",
+    "project2_desc": "Une plateforme e-commerce premium pour les produits de santé, beauté et bien-être avec livraison rapide en Algérie.",
+    "project3_title": "CSP Oued Seguin Prediction",
+    "project3_desc": "Une plateforme de pronostics football où les utilisateurs prédisent les résultats, participent aux tournois et grimpent au classement.",
     "visit": "Visiter le Site"
   },
   "services": {
