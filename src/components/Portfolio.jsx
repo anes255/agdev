@@ -18,7 +18,7 @@ const projects = [
     descKey: 'portfolio.project2_desc',
     url: 'https://parapharmacie-frontend.vercel.app/',
     image: '/project-pharma.jpg',
-    tags: ['Next.js', 'Tailwind', 'Stripe'],
+    tags: ['React', 'Node.js', 'Neon'],
     color: 'from-emerald-500 to-teal-500'
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     descKey: 'portfolio.project3_desc',
     url: 'https://stupendous-pothos-cab613.netlify.app/',
     image: '/project-csp.jpg',
-    tags: ['React', 'GSAP', 'Three.js'],
+    tags: ['Java', 'React', 'MongoDB'],
     color: 'from-amber-500 to-yellow-500'
   }
 ]
