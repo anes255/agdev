@@ -8,7 +8,7 @@ const projects = [
     titleKey: 'portfolio.project1_title',
     descKey: 'portfolio.project1_desc',
     url: 'https://mamanalgerienne.com/',
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=500&fit=crop',
+    image: 'https://api.microlink.io/?url=https://mamanalgerienne.com/&screenshot=true&meta=false&embed=screenshot.url',
     tags: ['React', 'Node.js', 'MongoDB'],
     color: 'from-orange-500 to-red-500'
   },
@@ -17,7 +17,7 @@ const projects = [
     titleKey: 'portfolio.project2_title',
     descKey: 'portfolio.project2_desc',
     url: 'https://parapharmacie-frontend.vercel.app/',
-    image: 'https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&h=500&fit=crop',
+    image: 'https://api.microlink.io/?url=https://parapharmacie-frontend.vercel.app/&screenshot=true&meta=false&embed=screenshot.url',
     tags: ['Next.js', 'Tailwind', 'Stripe'],
     color: 'from-emerald-500 to-teal-500'
   },
@@ -26,7 +26,7 @@ const projects = [
     titleKey: 'portfolio.project3_title',
     descKey: 'portfolio.project3_desc',
     url: 'https://stupendous-pothos-cab613.netlify.app/',
-    image: 'https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=500&fit=crop',
+    image: 'https://api.microlink.io/?url=https://stupendous-pothos-cab613.netlify.app/&screenshot=true&meta=false&embed=screenshot.url',
     tags: ['React', 'GSAP', 'Three.js'],
     color: 'from-violet-500 to-purple-500'
   }
@@ -45,7 +45,7 @@ function ProjectCard({ project, index }) {
       transition={{ duration: 0.8, delay: index * 0.2 }}
       className="group"
     >
-      <div className="relative glass rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-primary-900/20">
+      <a href={project.url} target="_blank" rel="noopener noreferrer" className="block relative glass rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-primary-900/20 cursor-pointer">
         <div className="relative h-64 overflow-hidden">
           <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-20 group-hover:opacity-30 transition-opacity`} />
           <img
@@ -55,20 +55,11 @@ function ProjectCard({ project, index }) {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-transparent" />
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileHover={{ opacity: 1, y: 0 }}
-            className="absolute inset-0 flex items-center justify-center bg-dark-950/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-          >
-            <a
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary !px-6 !py-3 text-sm"
-            >
+          <div className="absolute inset-0 flex items-center justify-center bg-dark-950/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span className="btn-primary !px-6 !py-3 text-sm">
               {t('portfolio.visit')} ↗
-            </a>
-          </motion.div>
+            </span>
+          </div>
         </div>
 
         <div className="p-6">
@@ -86,7 +77,7 @@ function ProjectCard({ project, index }) {
             {t(project.descKey)}
           </p>
         </div>
-      </div>
+      </a>
     </motion.div>
   )
 }

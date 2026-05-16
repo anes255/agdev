@@ -33,16 +33,6 @@ const services = [
     ),
     gradient: 'from-pink-500 to-rose-500'
   },
-  {
-    titleKey: 'services.seo_title',
-    descKey: 'services.seo_desc',
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-      </svg>
-    ),
-    gradient: 'from-amber-500 to-orange-500'
-  }
 ]
 
 function ServiceCard({ service, index }) {
@@ -100,7 +90,7 @@ export default function Services() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           {services.map((service, i) => (
             <ServiceCard key={i} service={service} index={i} />
           ))}
