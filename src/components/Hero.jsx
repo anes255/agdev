@@ -96,27 +96,6 @@ export default function Hero({ onOrder }) {
           </motion.a>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
-          className="mt-20 grid grid-cols-3 gap-8 max-w-md mx-auto"
-        >
-          {[
-            { value: '50+', label: t('hero.stats_projects') },
-            { value: '40+', label: t('hero.stats_clients') },
-            { value: '5+', label: t('hero.stats_years') }
-          ].map((stat, i) => (
-            <motion.div
-              key={i}
-              whileHover={{ y: -5 }}
-              className="text-center"
-            >
-              <div className="font-display text-2xl md:text-3xl font-bold gradient-text">{stat.value}</div>
-              <div className="text-dark-500 text-xs mt-1">{stat.label}</div>
-            </motion.div>
-          ))}
-        </motion.div>
       </div>
 
       <motion.div

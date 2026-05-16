@@ -11,7 +11,7 @@ export default function OrderModal({ isOpen, onClose }) {
   const [loading, setLoading] = useState(false)
   const [form, setForm] = useState({
     name: '', email: '', phone: '', company: '',
-    budget: '', description: '', timeline: ''
+    description: '', timeline: ''
   })
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value })
@@ -25,7 +25,7 @@ export default function OrderModal({ isOpen, onClose }) {
       onClose()
       setStep(1)
       setProjectType('')
-      setForm({ name: '', email: '', phone: '', company: '', budget: '', description: '', timeline: '' })
+      setForm({ name: '', email: '', phone: '', company: '', description: '', timeline: '' })
     } catch {
       toast.error(t('order.error'))
     } finally {
@@ -146,19 +146,6 @@ export default function OrderModal({ isOpen, onClose }) {
                   />
                 </div>
 
-                <select
-                  name="budget"
-                  value={form.budget}
-                  onChange={handleChange}
-                  required
-                  className="w-full glass rounded-xl px-4 py-3 bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-primary-500/50 [&>option]:bg-dark-900"
-                >
-                  <option value="" disabled>{t('order.budget')}</option>
-                  <option value="small">{t('order.budget_small')}</option>
-                  <option value="medium">{t('order.budget_medium')}</option>
-                  <option value="large">{t('order.budget_large')}</option>
-                  <option value="enterprise">{t('order.budget_enterprise')}</option>
-                </select>
 
                 <select
                   name="timeline"
