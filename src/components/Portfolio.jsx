@@ -47,13 +47,11 @@ function ProjectCard({ project, index }) {
     >
       <a href={project.url} target="_blank" rel="noopener noreferrer" className="block relative glass rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-primary-900/20 cursor-pointer">
         <div className="relative h-64 overflow-hidden">
-          <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-20 group-hover:opacity-30 transition-opacity`} />
           <img
             src={project.image}
             alt={t(project.titleKey)}
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-transparent" />
 
           <div className="absolute inset-0 flex items-center justify-center bg-dark-950/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <span className="btn-primary !px-6 !py-3 text-sm">
